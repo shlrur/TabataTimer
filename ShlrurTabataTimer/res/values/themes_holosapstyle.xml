@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="HoloSAPStyle" parent="@style/_HoloSAPStyle"/>
+
+  <style name="_HoloSAPStyle" parent="android:Theme.Holo.Light">
+
+    <item name="android:buttonStyle">@style/ButtonHoloSAPStyle</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonHoloSAPStyle</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarHoloSAPStyle</item>
+
+  </style>
+
+</resources>

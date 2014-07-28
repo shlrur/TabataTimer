@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <shlrur.sap.shlrurtabatatimer.shlrurtabatatimer.AutoResizeTextView
+        android:id="@+id/tabata_timer_time"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="3"
+        android:ellipsize="none"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="#000000"
+        android:textSize="200sp"
+        android:fontFamily="" />
+
+    <shlrur.sap.shlrurtabatatimer.shlrurtabatatimer.TabataTimerProgressView
+        android:id="@+id/tabata_timer_surface"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="2" />
+
+    <shlrur.sap.shlrurtabatatimer.shlrurtabatatimer.AutoResizeTextView
+        android:id="@+id/tabata_timer_state_tv"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="3"
+        android:ellipsize="none"
+        android:gravity="center"
+        android:maxLines="2"
+        android:textColor="#000000"
+        android:textSize="100sp" />
+
+    <Button
+        android:id="@+id/tabata_timer_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        style="@style/ButtonHoloSAPStyle"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+</LinearLayout>

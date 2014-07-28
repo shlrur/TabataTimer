@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="ButtonHoloSAPStyle" parent="android:Widget.Holo.Light.Button">
+	  <item name="android:background">@drawable/holosapstyle_btn_default_holo_light</item>
+  </style>
+
+  <style name="ImageButtonHoloSAPStyle" parent="android:Widget.Holo.Light.ImageButton">
+	  <item name="android:background">@drawable/holosapstyle_btn_default_holo_light</item>
+  </style>
+
+  <style name="SeekBarHoloSAPStyle" parent="android:Widget.Holo.Light.SeekBar">
+      <item name="android:progressDrawable">@drawable/holosapstyle_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/holosapstyle_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:thumb">@drawable/holosapstyle_scrubber_control_selector_holo_light</item>
+  </style>
+
+</resources>
